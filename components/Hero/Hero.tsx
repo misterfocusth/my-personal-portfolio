@@ -16,7 +16,7 @@ const Hero = () => {
         </p>
         <p className="my-2 text-4xl font-extrabold">Sila Pakdeewong</p>
         <p className="text-xl font-bold">
-          <span className="text-gray-500">Faculty of IT Student</span> at{' '}
+          <span className="text-blue-500">Faculty of IT Student</span> at{' '}
           <span className="text-[#FF5733]">KMITL</span>
         </p>
         <p className="mt-6 font-semibold text-gray-400">
@@ -43,7 +43,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <div>{/* <HeroImage /> */}</div>
+      <div className="mx-auto mt-12 md:mx-0">
+        <HeroImage />
+      </div>
     </div>
   );
 };
