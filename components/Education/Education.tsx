@@ -29,7 +29,12 @@ const Education = () => {
             <p className="text-base font-extrabold text-[#FF5733]">
               2022 - Present
             </p>
-            <a href="https://www.kmitl.ac.th/" className="hover:text-[#FF5733]">
+            <a
+              href="https://www.kmitl.ac.th/"
+              className="hover:text-[#FF5733]"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p className="font-bold">
                 King Mongkut’s Institute of Technology Ladkrabang
               </p>
@@ -54,6 +59,8 @@ const Education = () => {
             </p>
             <a
               href="http://www.sriayudhya.ac.th/sri60/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-[#FF5733]"
             >
               <p className="font-bold">
@@ -82,6 +89,8 @@ const Education = () => {
             </p>
             <a
               href="http://www.samakhomsatreethai.ac.th/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-[#FF5733]"
             >
               <p className="font-bold">
@@ -91,6 +100,41 @@ const Education = () => {
             <p className="font-semibold text-gray-400">
               Kindergarden and Grade 1 - 6
             </p>
+          </div>
+        </div>
+
+        <div className="mt-8 self-center text-left ">
+          <p className="my-2 text-3xl font-extrabold">Courses and Program</p>
+          <p className="mt-4 font-semibold text-gray-400">
+            Courses and Program that I taken or attended
+          </p>
+        </div>
+
+        <div className="mt-6">
+          <div className="flex flex-row items-start gap-4">
+            <img
+              src={'/images/schools/42Bangkok.png'}
+              loading="lazy"
+              width={65}
+              height={65}
+            />
+            <div className="flex flex-col text-left">
+              <p className="text-base font-extrabold text-[#FF5733]">
+                May 2022
+              </p>
+              <a
+                href="https://www.42bangkok.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#FF5733]"
+              >
+                <p className="font-bold">42Bangkok - Discovery Piscine</p>
+              </a>
+              <p className="font-semibold text-gray-400">
+                Short piscine course from 42Bangkok I have learned about Shell
+                Command / Web Development using HTML & CSS and JavaScript
+              </p>
+            </div>
           </div>
         </div>
       </div>

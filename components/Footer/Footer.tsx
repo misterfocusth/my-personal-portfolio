@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="md:flex">
       <a
-        className="flex items-center justify-center"
+        className="flex items-center justify-center font-semibold"
         href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
         target="_blank"
         rel="noopener noreferrer"
@@ -13,7 +13,7 @@ const Footer = () => {
         Develop with <span className="ml-1 mr-2">❤️</span> by Sila Pakdeewong
       </a>
       <a
-        className="flex items-center justify-center gap-2 md:ml-12"
+        className="flex items-center justify-center gap-2 font-semibold md:ml-12"
         href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
         target="_blank"
         rel="noopener noreferrer"

@@ -20,9 +20,19 @@ const Programming = () => {
       </div>
 
       <div className="mt-4 text-left">
-        <p className="text-md font-bold text-[#FF5733]">Intermediate Level</p>
+        <p className="text-lg font-bold text-[#FF5733]">Intermediate Level</p>
         <p className="mt-2 font-semibold text-gray-400">
-          - JavaScript & TypeScript (Nodes) <br />-
+          - JavaScript & TypeScript (NodeJS) <br />
+          - HTML & CSS <br /> - Java & Kotlin <br />- Python
+        </p>
+      </div>
+
+      <div className="mt-4 text-left">
+        <p className="text-lg font-bold text-[#FF5733]">
+          Beginner Level (I'm Learning)
+        </p>
+        <p className="mt-2 font-semibold text-gray-400">
+          - Go (GoLang) <br />- C
         </p>
       </div>
     </div>

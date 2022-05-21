@@ -17,19 +17,16 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="fixed top-0 z-50 flex h-14 w-full justify-center border-gray-200 bg-slate-900 px-4 py-2.5 sm:h-20 sm:px-4">
+    <nav className="h-18 fixed top-0 z-50 flex w-full justify-center border-gray-200 bg-slate-900 px-4 py-2.5 sm:h-20 sm:px-14">
       <div className="container mx-auto flex flex-wrap items-center justify-between">
-        <a href="#" className="flex items-center">
-          {/* <picture>
-            <source media="(min-width: 640px)" src="" />
-            <Image
-              width="24"
-              height="24"
-              src=""
-              alt="icon"
-              className="mr-3 h-6 w-6 rounded-full sm:h-9 sm:w-9"
-            />
-          </picture> */}
+        <a href="#" className="flex items-center justify-center gap-2">
+          <Image
+            width="45"
+            height="45"
+            src="/images/memoji/S__2506754.jpg"
+            alt="icon"
+            className="h-6 w-6 self-center rounded-full sm:h-9 sm:w-9"
+          />
           <span className="self-center whitespace-nowrap text-2xl font-semibold text-white sm:text-2xl">
             misterfocusth
           </span>

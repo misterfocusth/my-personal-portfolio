@@ -15,7 +15,21 @@ const Home: NextPage = () => {
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
         <title>misterfocusth | Personal Portfolio</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/memoji/S__2506754.jpg" />
+        <meta
+          property="og:title"
+          content="misterfocusth | Personal Portfolio"
+        />
+        <meta property="og:type" content="video.movie" />
+        <meta property="og:url" content="https://misterfocusth.vercel.app" />
+        <meta
+          property="og:image"
+          content="https://misterfocusth.vercel.app/images/profile/sila.jpeg"
+        />
+        <meta
+          property="og:description"
+          content="1st Year - Faculty of IT Student at KMITL (IT20) | (Focusing Web App / Back-end / Mobile and Blockchain Development)"
+        />
       </Head>
 
       <Navbar />
@@ -38,9 +52,9 @@ const Home: NextPage = () => {
             <Awards />
           </div>
 
-          {/* <div id="skills" className="mb-16 scroll-mt-24">
+          <div id="skills" className="mb-16 scroll-mt-24">
             <Skills />
-          </div> */}
+          </div>
         </div>
       </main>
 

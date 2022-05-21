@@ -1,9 +1,10 @@
 import React from 'react';
 import Programming from './Programming';
+import Stacks from './Stacks';
 
 const Skills = () => {
   return (
-    <div className="mt-12 flex flex-col items-start justify-between md:mt-0 md:flex md:w-5/12">
+    <div className="mt-12 flex w-full flex-col items-start justify-between md:mt-0 md:flex">
       <div className="self-center text-center ">
         <p className="text-xl font-extrabold text-[#FF5733]">
           What I can do in software development
@@ -18,11 +19,14 @@ const Skills = () => {
         </p>
       </div>
 
-      <div className="mt-8 flex flex-col md:flex-row">
-        <div>
+      {/* <div className="mt-8 flex w-full flex-col md:flex-row">
+        <div className="md:w-5/12">
           <Programming />
         </div>
-      </div>
+        <div className="mt-6 md:mt-0 md:w-5/12">
+          <Stacks />
+        </div>
+      </div> */}
     </div>
   );
 };

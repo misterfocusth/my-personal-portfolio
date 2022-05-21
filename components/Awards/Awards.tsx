@@ -35,6 +35,8 @@ const Awards = () => {
             <div className="mt-2">
               <a
                 href="https://www.nstda.or.th/home/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-[#FF5733]"
               >
                 <p className="font-semibold text-gray-400 underline">
@@ -69,6 +71,8 @@ const Awards = () => {
             <div className="mt-2">
               <a
                 href="https://www.microsoft.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-[#FF5733]"
               >
                 <p className="font-semibold text-gray-400 underline">
@@ -108,6 +112,8 @@ const Awards = () => {
             <div className="mt-2">
               <a
                 href="http://www.sriayudhya.ac.th/sri60/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-[#FF5733]"
               >
                 <p className="font-semibold text-gray-400 underline">

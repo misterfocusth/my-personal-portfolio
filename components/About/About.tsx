@@ -15,7 +15,7 @@ import Image from 'next/image';
 const About = () => {
   return (
     <div className="justify-between md:flex md:flex-row">
-      <div className="self-center text-left md:w-5/12">
+      <div className="items-start text-left md:w-5/12">
         <p className="text-xl font-extrabold text-[#FF5733]">
           Want to know me more?
         </p>
@@ -30,7 +30,7 @@ const About = () => {
         </p>
       </div>
 
-      <div className="mt-12 self-center text-left md:w-5/12">
+      <div className="mt-12 self-center text-left md:mt-0 md:w-5/12">
         <div>
           <p className="text-xl font-extrabold text-[#FF5733] md:hidden">
             Want to contact me? <br /> Here is my contact and social media
@@ -52,7 +52,11 @@ const About = () => {
             <div className="rounded-full border-2 p-2">
               <FontAwesomeIcon icon={faPhone} width="14" height="14" />
             </div>
-            <a href="tel:+66-65-652-6769">
+            <a
+              href="tel:+66-65-652-6769"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p className="ml-2 text-base font-semibold hover:bg-[#FF5733]">
                 +66-65-652-6769
               </p>
@@ -62,7 +66,11 @@ const About = () => {
             <div className="rounded-full border-2 p-2">
               <FontAwesomeIcon icon={faEnvelope} width="14" height="14" />
             </div>
-            <a href="mailto:focuspakdeewong2546@gmail.com">
+            <a
+              href="mailto:focuspakdeewong2546@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <p className="ml-2 text-base font-semibold hover:bg-[#FF5733]">
                 focuspakdeewong2546@gmail.com
               </p>
@@ -71,22 +79,38 @@ const About = () => {
 
           <div className="mt-3 flex gap-1">
             <div className="p-2 hover:bg-[#FF5733]">
-              <a href="https://github.com/misterfocusth">
+              <a
+                href="https://github.com/misterfocusth"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image src={githubIcon} width={24} height={24} />
               </a>
             </div>
             <div className="p-2 hover:bg-[#FF5733]">
-              <a href="https://web.facebook.com/Silapakdeewong2546">
+              <a
+                href="https://web.facebook.com/Silapakdeewong2546"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image src={facebookIcon} width={24} height={24} />
               </a>
             </div>
             <div className="p-2 hover:bg-[#FF5733]">
-              <a href="https://medium.com/@misterfocusth">
+              <a
+                href="https://medium.com/@misterfocusth"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image src={mediumIcon} width={24} height={24} />
               </a>
             </div>
             <div className="p-2 hover:bg-[#FF5733]">
-              <a href="https://www.youtube.com/c/MISTERFOCUSTH">
+              <a
+                href="https://www.youtube.com/c/MISTERFOCUSTH"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image src={youtubeIcon} width={24} height={24} />
               </a>
             </div>
